@@ -222,7 +222,7 @@ function create_config( )
     "leave_ban",
     "block_user"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -433,7 +433,7 @@ will return group ban list
 end
 
 function on_our_id (id)
-  our_id = id
+  our_id = 79982358
 end
 
 function on_user_update (user, what)
